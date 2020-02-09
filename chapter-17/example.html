@@ -1,156 +1,192 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>HTML5 ·¹ÀÌ¾î</title>
-		<style type="text/css">
-			header, section, footer, aside, nav, article, figure, figcaption {
-				display: block;}
-			body {
-				color: #666666;
-				background-color: #f9f8f6;
-				background-image: url("images/dark-wood.jpg");
-				background-position: center;
-				font-family: Georgia, Times, serif;
-				line-height: 1.4em;
-				margin: 0px;}
-			.wrapper {
-				width: 940px;
-				margin: 20px auto 20px auto;
-				border: 2px solid #000000;
-				background-color: #ffffff;}
-			header {
-				height: 160px;
-				background-image: url(images/header.jpg);}
-			h1 {
-				text-indent: -9999px;
-				width: 940px;
-				height: 130px;
-				margin: 0px;}
-			nav, footer {
-				clear: both;
-				color: #ffffff;
-				background-color: #aeaca8;
-				height: 30px;}
-			nav ul {
-				margin: 0px;
-				padding: 5px 0px 5px 30px;}
-			nav li {
-				display: inline;
-				margin-right: 40px;}
-			nav li a {
-				color: #ffffff;}
-			nav li a:hover, nav li a.current {
-				color: #000000;}
-			section.courses {
-				float: left;
-				width: 659px;
-				border-right: 1px solid #eeeeee;}
-			article {
-				clear: both;
-				overflow: auto;
-				width: 100%;}
-			hgroup {
-				margin-top: 40px;}
-			figure {
-				float: left;
-				width: 290px;
-				height: 220px;
-				padding: 5px;
-				margin: 20px;
-				border: 1px solid #eeeeee;}
-			figcaption {
-				font-size: 90%;
-				text-align: left;}
-			aside {
-				width: 230px;
-				float: left;
-				padding: 0px 0px 0px 20px;}
-			aside section a {
-				display: block;
-				padding: 10px;
-				border-bottom: 1px solid #eeeeee;}
-			aside section a:hover {
-				color: #985d6a;
-				background-color: #efefef;}
-			a {
-				color: #de6581;
-				text-decoration: none;}
-			h1, h2, h3 {
-				font-weight: normal;}
-			h2 {
-				margin: 10px 0px 5px 0px;
-				padding: 0px;}
-			h3 {
-				margin: 0px 0px 10px 0px;
-				color: #de6581;}
-			aside h2 {
-				padding: 30px 0px 10px 0px;
-				color: #de6581;}
-			footer {
-				font-size: 80%;
-				padding: 7px 0px 0px 20px;}
-		</style>
-		<!--[if lt IE 9]>
-		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-	</head>
-	<body>
-		<div class="wrapper">
-			<header>
-				<h1>Yoko's Kitchen</h1>
-				<nav>
-					<ul>
-						<li><a href="" class="current">È¨</a></li>
-						<li><a href="">±³½Ç</a></li>
-						<li><a href="">ÄÉÀÌÅÍ¸µ</a></li>
-						<li><a href="">¼Ò°³</a></li>
-						<li><a href="">¿¬¶ôÃ³</a></li>
-					</ul>
-				</nav>
-			</header>
-			<section class="courses">
-				<article>
-					<figure>
-						<img src="images/bok-choi.jpg" alt="Bok Choi" />
-						<figcaption>Bok Choi</figcaption>
-					</figure>
-					<hgroup>
-						<h2>ÀÏº»ÀÇ Ã¤½ÄÁÖÀÇÀÚ</h2>
-						<h3>·±´ø¿¡¼­ÀÇ 5ÁÖ ÄÚ½º</h3>
-					</hgroup>
-					<p>5ÁÖ°£ ÀüÅëÀûÀÎ ÀÏº»ÀÇ Ã¤½ÄÁÖÀÇÀÚ À½½Ä¿¡ ´ëÇØ ¼Ò°³ÇÏ°í ½Ò°ú ±¹¼ö ¿ä¸®¸¦ °¡¸£Ä£´Ù.</p>
-				</article>    
-				<article>
-					<figure>
-						<img src="images/teriyaki.jpg" alt="Teriyaki sauce" />
-						<figcaption>Teriyaki Sauce</figcaption>
-					</figure>
-					<hgroup>
-						<h2>¼Ò½º ¸¶½ºÅÍÅ¬·¡½º</h2>
-						<h3>1ÀÏ ¿öÅ©¼¥</h3>
-					</hgroup>
-					<p>1ÀÏ ÁıÁß ÄÚ½º¿¡¼­´Â ´Ù¾çÇÑ ÀÏº» ¿ä¸®¿¡¼­ »ç¿ëÇÒ ¼ö ÀÖ´Â °¡Àå ¸ÀÀÖ´Â ¼Ò½º¸¦ ¸¸µå´Â ¹æ¹ıÀ» »ìÆìº»´Ù.</p>
-				</article>    
-			</section>
-			<aside>
-				<section class="popular-recipes">
-					<h2>ÀÎ±â ¿ä¸®¹ı</h2>
-					<a href="">¾ßÅ°Åä¸®(Yakitori) - ±¸¿î ´ß</a>
-					<a href="">Ã÷Äí³×(Tsukune) - ´ß²¿Ä¡</a>
-					<a href="">¿ÀÄÚ³ë¹Ì¾ßÅ°(Okonomiyaki)- ÇØ¹° ºÎÄ§°³</a>
-					<a href="">¹ÌÁîÅ¸Å°(Mizutaki) - ¿µ°è¹é¼÷</a>
-				</section>
-				<section class="contact-details">
-					<h2>¿¬¶ôÃ³</h2>
-					<p>Yoko's Kitchen<br />
-						27 Redchurch Street<br />
-						Shoreditch<br />
-						London E2 7DP</p>
-				</section>
-			</aside>
-			<footer>
-				&copy; 2011 Yoko's Kitchen
-			</footer>
-		</div><!-- .wrapper -->
-	</body>
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML5 ë ˆì´ì–´</title>
+  <style type="text/css">
+    header,
+    section,
+    footer,
+    aside,
+    nav,
+    article,
+    figure,
+    figcaption {
+      display: block;
+    }
+    body {
+      color: #666666;
+      background-color: #f9f8f6;
+      background-image: url("images/dark-wood.jpg");
+      background-position: center;
+      font-family: Georgia, Times, serif;
+      line-height: 1.4em;
+      margin: 0px;
+    }
+    .wrapper {
+      width: 940px;
+      margin: 20px auto 20px auto;
+      border: 2px solid #000000;
+      background-color: #ffffff;
+    }
+    header {
+      height: 160px;
+      background-image: url(images/header.jpg);
+    }
+    h1 {
+      text-indent: -9999px;
+      width: 940px;
+      height: 130px;
+      margin: 0px;
+    }
+    nav,
+    footer {
+      clear: both;
+      color: #ffffff;
+      background-color: #aeaca8;
+      height: 30px;
+    }
+    nav ul {
+      margin: 0px;
+      padding: 5px 0px 5px 30px;
+    }
+    nav li {
+      display: inline;
+      margin-right: 40px;
+    }
+    nav li a {
+      color: #ffffff;
+    }
+    nav li a:hover,
+    nav li a.current {
+      color: #000000;
+    }
+    section.courses {
+      float: left;
+      width: 659px;
+      border-right: 1px solid #eeeeee;
+    }
+    article {
+      clear: both;
+      overflow: auto;
+      width: 100%;
+    }
+    hgroup {
+      margin-top: 40px;
+    }
+    figure {
+      float: left;
+      width: 290px;
+      height: 220px;
+      padding: 5px;
+      margin: 20px;
+      border: 1px solid #eeeeee;
+    }
+    figcaption {
+      font-size: 90%;
+      text-align: left;
+    }
+    aside {
+      width: 230px;
+      float: left;
+      padding: 0px 0px 0px 20px;
+    }
+    aside section a {
+      display: block;
+      padding: 10px;
+      border-bottom: 1px solid #eeeeee;
+    }
+    aside section a:hover {
+      color: #985d6a;
+      background-color: #efefef;
+    }
+    a {
+      color: #de6581;
+      text-decoration: none;
+    }
+    h1,
+    h2,
+    h3 {
+      font-weight: normal;
+    }
+    h2 {
+      margin: 10px 0px 5px 0px;
+      padding: 0px;
+    }
+    h3 {
+      margin: 0px 0px 10px 0px;
+      color: #de6581;
+    }
+    aside h2 {
+      padding: 30px 0px 10px 0px;
+      color: #de6581;
+    }
+    footer {
+      font-size: 80%;
+      padding: 7px 0px 0px 20px;
+    }
+  </style>
+  <!--[if lt IE 9]>
+  		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  		<![endif]-->
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Yoko's Kitchen</h1>
+      <nav>
+        <ul>
+          <li><a href="" class="current">í™ˆ</a></li>
+          <li><a href="">êµì‹¤</a></li>
+          <li><a href="">ì¼€ì´í„°ë§</a></li>
+          <li><a href="">ì†Œê°œ</a></li>
+          <li><a href="">ì—°ë½ì²˜</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section class="courses">
+      <article>
+        <figure>
+          <img src="images/bok-choi.jpg" alt="Bok Choi" />
+          <figcaption>Bok Choi</figcaption>
+        </figure>
+        <hgroup>
+          <h2>ì¼ë³¸ì˜ ì±„ì‹ì£¼ì˜ì</h2>
+          <h3>ëŸ°ë˜ì—ì„œì˜ 5ì£¼ ì½”ìŠ¤</h3>
+        </hgroup>
+        <p>5ì£¼ê°„ ì „í†µì ì¸ ì¼ë³¸ì˜ ì±„ì‹ì£¼ì˜ì ìŒì‹ì— ëŒ€í•´ ì†Œê°œí•˜ê³  ìŒ€ê³¼ êµ­ìˆ˜ ìš”ë¦¬ë¥¼ ê°€ë¥´ì¹œë‹¤.</p>
+      </article>
+      <article>
+        <figure>
+          <img src="images/teriyaki.jpg" alt="Teriyaki sauce" />
+          <figcaption>Teriyaki Sauce</figcaption>
+        </figure>
+        <hgroup>
+          <h2>ì†ŒìŠ¤ ë§ˆìŠ¤í„°í´ë˜ìŠ¤</h2>
+          <h3>1ì¼ ì›Œí¬ìƒµ</h3>
+        </hgroup>
+        <p>1ì¼ ì§‘ì¤‘ ì½”ìŠ¤ì—ì„œëŠ” ë‹¤ì–‘í•œ ì¼ë³¸ ìš”ë¦¬ì—ì„œ ì‚¬ìš©í•  ìˆ˜ ìˆëŠ” ê°€ì¥ ë§›ìˆëŠ” ì†ŒìŠ¤ë¥¼ ë§Œë“œëŠ” ë°©ë²•ì„ ì‚´í´ë³¸ë‹¤.</p>
+      </article>
+    </section>
+    <aside>
+      <section class="popular-recipes">
+        <h2>ì¸ê¸° ìš”ë¦¬ë²•</h2>
+        <a href="">ì•¼í‚¤í† ë¦¬(Yakitori) - êµ¬ìš´ ë‹­</a>
+        <a href="">ì¸ ì¿ ë„¤(Tsukune) - ë‹­ê¼¬ì¹˜</a>
+        <a href="">ì˜¤ì½”ë…¸ë¯¸ì•¼í‚¤(Okonomiyaki)- í•´ë¬¼ ë¶€ì¹¨ê°œ</a>
+        <a href="">ë¯¸ì¦ˆíƒ€í‚¤(Mizutaki) - ì˜ê³„ë°±ìˆ™</a>
+      </section>
+      <section class="contact-details">
+        <h2>ì—°ë½ì²˜</h2>
+        <p>Yoko's Kitchen<br />
+          27 Redchurch Street<br />
+          Shoreditch<br />
+          London E2 7DP</p>
+      </section>
+    </aside>
+    <footer>
+      &copy; 2011 Yoko's Kitchen
+    </footer>
+  </div><!-- .wrapper -->
+</body>
 </html>
